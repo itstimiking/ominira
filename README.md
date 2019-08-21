@@ -21,4 +21,4 @@ Install parcel globerly the run the command bello
 
     percel index.pug
     
-The open browser and go to http://localhost:1234
+Then open browser and go to http://localhost:1234
