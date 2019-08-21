@@ -122,7 +122,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../fonts/paymentfont-webfont.eot":[["paymentfont-webfont.f4b75ed7.eot","fonts/paymentfont-webfont.eot"],"fonts/paymentfont-webfont.eot"],"./../fonts/paymentfont-webfont.woff":[["paymentfont-webfont.a04b3cfb.woff","fonts/paymentfont-webfont.woff"],"fonts/paymentfont-webfont.woff"],"./../fonts/paymentfont-webfont.ttf":[["paymentfont-webfont.ddce4986.ttf","fonts/paymentfont-webfont.ttf"],"fonts/paymentfont-webfont.ttf"],"./../fonts/paymentfont-webfont.svg":[["paymentfont-webfont.f7aa963e.svg","fonts/paymentfont-webfont.svg"],"fonts/paymentfont-webfont.svg"],"./../fonts/cryptofont-webfont.eot":[["cryptofont-webfont.f87896c4.eot","fonts/cryptofont-webfont.eot"],"fonts/cryptofont-webfont.eot"],"./../fonts/cryptofont-webfont.woff":[["cryptofont-webfont.2b508f64.woff","fonts/cryptofont-webfont.woff"],"fonts/cryptofont-webfont.woff"],"./../fonts/cryptofont-webfont.ttf":[["cryptofont-webfont.2a66d87e.ttf","fonts/cryptofont-webfont.ttf"],"fonts/cryptofont-webfont.ttf"],"./../fonts/cryptofont-webfont.svg":[["cryptofont-webfont.eb63fbbd.svg","fonts/cryptofont-webfont.svg"],"fonts/cryptofont-webfont.svg"],"/home/timiking/apps/ominira2/img/grid.png":[["grid.688916e9.png","img/grid.png"],"img/grid.png"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../fonts/paymentfont-webfont.eot":[["paymentfont-webfont.f4b75ed7.eot","fonts/paymentfont-webfont.eot"],"fonts/paymentfont-webfont.eot"],"./../fonts/paymentfont-webfont.woff":[["paymentfont-webfont.a04b3cfb.woff","fonts/paymentfont-webfont.woff"],"fonts/paymentfont-webfont.woff"],"./../fonts/paymentfont-webfont.ttf":[["paymentfont-webfont.ddce4986.ttf","fonts/paymentfont-webfont.ttf"],"fonts/paymentfont-webfont.ttf"],"./../fonts/paymentfont-webfont.svg":[["paymentfont-webfont.f7aa963e.svg","fonts/paymentfont-webfont.svg"],"fonts/paymentfont-webfont.svg"],"./../fonts/cryptofont-webfont.eot":[["cryptofont-webfont.f87896c4.eot","fonts/cryptofont-webfont.eot"],"fonts/cryptofont-webfont.eot"],"./../fonts/cryptofont-webfont.woff":[["cryptofont-webfont.2b508f64.woff","fonts/cryptofont-webfont.woff"],"fonts/cryptofont-webfont.woff"],"./../fonts/cryptofont-webfont.ttf":[["cryptofont-webfont.2a66d87e.ttf","fonts/cryptofont-webfont.ttf"],"fonts/cryptofont-webfont.ttf"],"./../fonts/cryptofont-webfont.svg":[["cryptofont-webfont.eb63fbbd.svg","fonts/cryptofont-webfont.svg"],"fonts/cryptofont-webfont.svg"],"/home/timiking/apps/ominira/img/grid.png":[["grid.688916e9.png","img/grid.png"],"img/grid.png"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -150,7 +150,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34215" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44795" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -3,10 +3,10 @@ Ominira Development front end rapo....
 
 ## Dependencies Used 
 
-Pug
-Sass
-Bootstrap 4
-Percel Bundler
+Pug  
+Sass  
+Bootstrap 4  
+Percel Bundler  
 Node.js
 
 
