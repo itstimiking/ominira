@@ -20,7 +20,7 @@ Install node.js and run the comand bellow
     
 Install parcel globerly then run the command bellow
 
-    percel index.pug
+    parcel index.pug
     
 Then open your browser and go to localhost with the port number 1234
 
