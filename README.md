@@ -13,13 +13,15 @@ Node.js
 
 ## BEFORE YOU RUN THE APP
 
-Make sure you are connected to the internet to install the following dependencies 
+Make sure you are connected to the internet then install the following dependencies.  
 Install node.js and run the comand bellow
 
     npm install
     
-Install parcel globerly the run the command bello
+Install parcel globerly then run the command bellow
 
     percel index.pug
     
-Then open browser and go to http://localhost:1234
+Then open your browser and go to localhost with the port number 1234
+
+    http://localhost:1234
