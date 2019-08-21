@@ -1,2 +1,24 @@
 # ominira
 Ominira Development front end rapo.... 
+
+## Dependencies Used 
+
+Pug
+Sass
+Bootstrap 4
+Percel Bundler
+Node.js
+
+
+## BEFORE YOU RUN THE APP
+
+Make sure you are connected to the internet to install the following dependencies 
+Install node.js and run the comand bellow
+
+    npm install
+    
+Install parcel globerly the run the command bello
+
+    percel index.pug
+    
+The open browser and go to http://localhost:1234
