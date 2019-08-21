@@ -1,0 +1,51 @@
+extends ./layout.pug
+
+block header_content
+	.header_container_bck
+		.container
+			.header_content_bck
+				.row
+					.col-sm-10.offset-sm-1.col-md-6.offset-md-3
+						.row
+							.col-sm-12
+								form.row
+									.col-sm-12.form-group
+										label(for="fname") Your name
+									
+										input.form-control#fname(type='text' placeholder="full name")
+
+									.col-sm-12.form-group
+										label(for="email") Email Address
+									
+										input.form-control#email(type='text' placeholder="Email")
+
+
+									.col-sm-12.form-group 
+										label(for="pass") Password
+									
+										input.form-control#pass(type='password' placeholder="password")
+
+									.col-sm-12.form-group 
+										label(for="cpass") Confirm password
+									
+										input.form-control#cpass(type='password' placeholder="password")
+
+									.col-sm-12.form-group
+										input(type="checkbox")
+										span
+											| &ensp; I have read and Agree with all 
+											span.text-secondary terms and conditions
+
+									.col-sm-6.offset-sm-3
+										
+										a.btn.btn-success.form-control(href="./dashboard.pug") Signup
+									
+									.col-sm-6.offset-sm-3
+
+										p.text-center Already have an account
+										
+										a.btn.btn-danger.form-control(href="./login.pug") Login
+block content
+	
+block footer
+	include includes/footer

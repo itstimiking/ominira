@@ -1,0 +1,317 @@
+extends ./user.pug
+
+block page_css
+	link(type="text/css" rel="stylesheet" href="./sass/dash.scss"  media="screen,projection")
+	link(type="text/css" rel="stylesheet" href="./sass/process.scss"  media="screen,projection")
+
+block content
+	.header_container_bck
+		.container
+			.header_content_bck
+				.row
+					.col-sm-12.col-md-3
+						.row
+							.col-sm-12
+								.row.avatarbox
+									.col-5.col-sm-5.col-md-12.avatar
+										img(src="/img/user_head.png")
+									.col-6.col-sm-6.col-md-12.mt-sm-4.ml-2
+										h3 Username
+
+										span Trades 24
+										span.ml-3
+											| Reputation 
+											span.text-success 1234
+										span.text-danger.ml-3 0
+
+										br
+
+										span
+											| Seen: &ensp;
+											span#status Online
+										br
+
+										.input-group.mt-3
+											input.form-control(type="text" placeholder="Send message" style="color:white")
+											.input-group-append
+												.input-group-text.bg-success
+													span.text-light Send
+
+					.col-sm-12.col-md-7.offset-md-2.dash-top-form
+
+						.row.mt-sm-4.mt-md-0
+							.col-sm-12
+								p.h2
+									| PRICE: &nbsp;
+									span.font-bolder 57,990.67
+									br
+								p.mt-n2.h5 EXCHANGE 
+								
+								br
+
+								br
+								p.h2 TYPE AMOUNT YOU WANT TO BUY
+						.row
+							.col-sm-6
+								.row
+									.col
+										label(for="usd")
+											span.small Rate 1 USD to bitUSD
+								.form-group.mb-n1.row#usd
+									label(for="cash").col-sm-4.col-form-label.form-control USD
+			
+									
+									input.form-control.col-sm-6(type="number" placeholder="")#cash
+								span.small.mt-n4 
+									span.text-danger Trade limit: 
+									span min 30 USD max 2000 USD 
+								br
+								p.small.mt-n1 
+									span.text-danger Time frame: 
+									span 30 minutes 
+									
+
+
+							.col-sm-6
+								.row
+									.col
+										label(for="bitusd") &nbsp;
+								.form-group.mb-n1.row#bitusd
+									label(for="buy").col-sm-4.col-form-label.form-control bitUSD
+			
+									
+									input.form-control.col-sm-6(type="number" placeholder="")#buy
+								span.small.mt-n4
+									| Fee &nbsp;
+									span 0
+
+						
+
+						.row.justify-content-center.mt-4
+							a.btn.btn-success.col-auto.w-25(href='#') Next step
+
+				.row.mt-5
+					.col-5
+						.bck1
+
+							p.h5.font-weight-bold.p-2.mt-1.mb-n1 Trade feedbacks
+							.topline
+
+							p.p-2 
+								span.font-weight-bold
+									| Ogenetega &nbsp;
+								span wrote:
+								br
+								span He is fast and trust worthy
+								br
+
+								span.text-success.small +1 Rep
+								span.tiny.ml-3 on May 02 2019
+							.bottomline.mt-n4
+
+							p.p-2 
+								span.font-weight-bold
+									| Ogenetega &nbsp;
+								span wrote:
+								br
+								span He is fast and trust worthy
+								br
+
+								span.text-success.small +1 Rep
+								span.tiny.ml-3 on May 02 2019
+							.bottomline.mt-n4
+
+							p.p-2 
+								span.font-weight-bold
+									| Ogenetega &nbsp;
+								span wrote:
+								br
+								span He is fast and trust worthy
+								br
+
+								span.text-success.small +1 Rep
+								span.tiny.ml-3 on May 02 2019
+							.bottomline.mt-n4
+								p.text-right.small.align-bottom.p-2
+									a(href="")
+										u.text-success See more
+
+
+
+					.col-7
+
+						.bck1
+
+							p.h5.p-2.mt-1.mb-n1.font-weight-bold Offer terms and overview
+							.topline
+
+							p.p-2 The buyer of the currency has 30 minutes or the system will cancel the trade. Trade wont auto-cancelled when the user has marked as paid. After that buyer hasnt wait for seller to release the icon.
+
+							p.px-2.bottomtext
+								| If you accept click &nbsp;
+								a(href="")
+									u.text-danger here to buy
+								span &emsp;
+								| Read &nbsp;
+								a(href="")
+									u.text-danger trade guidlines 
+
+								span &nbsp;
+
+								a(href="")
+									u.text-danger see more
+
+					.col-sm-5.mt-4
+						.bck1
+							p.h5.p-2.my-1.font-weight-bold Search for similar trade
+							.topline
+
+							p.px-3.pt-3
+								a(href="").small.text-secondary If this is not the deal you are looking for
+
+							p.px-3
+								a(href="").text-success.d-block.mt-2
+									u Buy Bitcoin with Amazone Gift card
+
+								a(href="").text-danger.d-block.mt-2
+									u Sell Bitcoin for Amazone Gift card
+
+								a(href="").text-success.d-block.mt-2
+									u Sell Bitcoin for cash transfer
+
+								a(href="").text-danger.d-block.mt-2
+									u Buy Bitcoin with cash transfer
+
+								a(href="").text-success.d-block.mt-2
+									u Sell Bitcoin for cash transfer	
+
+					.col-sm-7.mt-4
+						.bck1
+							.topbox
+								.row
+									.col-4
+									.col-3
+									.col-3
+										span.small Currency
+										select.custom-select
+											option USD
+											option NGN
+											option AUD
+									.col-2
+								.row
+									.col-4
+										span
+											strong Traders
+									.col-3
+										span.small Selling &ensp;
+										span.fa.fa-caret-right &nbsp;
+										span.fa.fa-caret-left &ensp;
+										span.small Accepting
+
+
+									.col-1
+										span.small Price
+									.col-2.pl-4
+										span.small Limit
+
+									.col-2.text-right.pr-5
+										span.small Trade
+							.topline
+
+							.row.bottombox
+								
+								.col-4
+									.row.userbox
+										.col-6
+											img(src="/img/user_head.png" width="100%" height="100%")
+										.col-6.ml-n3
+											span.d-block
+												strong Username
+											
+											
+								.col-3.px-4.my-4
+									span.fa.fa-btc &ensp;
+									span.fa.fa-caret-right &nbsp;
+									span.fa.fa-caret-left &ensp;
+
+									span.fa.fa-btc
+
+								.col-1.mt-4
+									span 3567
+								.col-2.mt-4
+									span.tiny 10-1000
+
+								.col-2.mt-2
+
+									a.btn.btn-success.small(style="border-radius: 20px;")
+										span.small BUY
+							.bottomline.mt-n3
+
+
+							.row.bottombox
+								
+								.col-4
+									.row.userbox
+										.col-6
+											img(src="/img/user_head.png" width="50px")
+										.col-6.ml-n3
+											span.d-block
+												strong Username
+											
+											
+								.col-3.px-4.my-4
+									span.fa.fa-btc &ensp;
+									span.fa.fa-caret-right &nbsp;
+									span.fa.fa-caret-left &ensp;
+
+									span.fa.fa-btc
+
+								.col-1.mt-4
+									span 3567
+								.col-2.mt-4
+									span.tiny 10-1000
+
+								.col-2.mt-2
+
+									a.btn.btn-success.small(style="border-radius: 20px;")
+										span.small BUY
+							.bottomline.mt-n3
+
+
+							.row.bottombox
+								
+								.col-4
+									.row.userbox
+										.col-6
+											img(src="/img/user_head.png" width="50px")
+										.col-6.ml-n3
+											span.d-block
+												strong Username
+											
+											
+								.col-3.px-4.my-4
+									span.fa.fa-btc &ensp;
+									span.fa.fa-caret-right &nbsp;
+									span.fa.fa-caret-left &ensp;
+
+									span.fa.fa-btc
+
+								.col-1.mt-4
+									span 3567
+								.col-2.mt-4
+									span.tiny 10-1000
+
+								.col-2.mt-2
+
+									a.btn.btn-success.small(style="border-radius: 20px;")
+										span.small BUY
+							.bottomline.mt-n3
+
+							.row
+								.col.p-5
+									span.btn.btn-success See more..					
+										
+
+	
+block footer
+	include includes/footer

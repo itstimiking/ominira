@@ -1,0 +1,179 @@
+extends ./user.pug
+
+block page_css
+	link(type="text/css" rel="stylesheet" href="./sass/dash.scss"  media="screen,projection")
+	link(type="text/css" rel="stylesheet" href="./sass/market.scss"  media="screen,projection")
+
+
+block content
+	.header_container_bck
+		.container
+			.header_content_bck
+				.row.mt-n5
+					.col-sm-6
+						.line-box
+
+							.line
+							button.btn.success BUY
+							button.btn.trans SELL
+							br
+
+							.tab-box
+								a.btn BTC
+								a.btn ETC
+								a.btn LTC
+								a.btn DASH
+								a.btn STQ
+								a.btn USDT
+								a.btn BCH
+
+
+
+					.col-sm-6
+						.row.topselect
+							.col-6
+								select.custom-select
+									option(selected) Select currency
+							.col-6
+								select.custom-select
+									option(selected) Select accepting currency 
+
+						.row.mt-4
+							input.mx-auto.form-control.w-50(type="text" placeholder="Enter amount here")
+
+						.row.mt-4
+							button.mx-auto.btn.btn-success.w-50(style="border-radius:20px;") Search now
+
+				.row.mt-sm-5
+					.bck1
+						.topbox
+							.row
+								.col-4
+								.col-3
+								.col-3
+									span.small Currency
+									select.custom-select
+										option USD
+										option NGN
+										option AUD
+								.col-2
+							.row
+								.col-4
+									span
+										strong Traders
+								.col-3
+									span Selling &ensp;
+									span.fa.fa-caret-right &nbsp;
+									span.fa.fa-caret-left &ensp;
+									span Accepting
+
+
+								.col-1
+									span Price
+								.col-2.pl-4
+									span.small Limit
+
+								.col-2.text-right.pr-5
+									span Trade
+						.topline
+
+						.row.bottombox
+							
+							.col-4
+								.row.userbox
+									.col-4
+										img(src="/img/user_head.png").img-fluid
+									.col-8.ml-n3
+										span.d-block
+											strong Username
+										
+										.details
+											span.tiny Trades 200
+											span.ml-3.tiny Rating 100%
+							.col-3.px-4.my-4
+								span.fa.fa-btc.fa-2x &ensp;
+								span.fa.fa-caret-right &nbsp;
+								span.fa.fa-caret-left &ensp;
+
+								span.fa.fa-btc.fa-2x
+
+							.col-1.mt-4
+								span 3567
+							.col-2.mt-4
+								span.tiny 10-1000
+
+							.col-2.mt-4
+
+								a.btn.btn-success(style="border-radius: 20px; width:100px") BUY
+						.bottomline.mt-n3
+
+
+
+						.row.bottombox
+							
+							.col-4
+								.row.userbox
+									.col-4
+										img(src="/img/user_head.png").img-fluid
+									.col-8.ml-n3
+										span.d-block
+											strong Username
+										
+										.details
+											span.tiny Trades 200
+											span.ml-3.tiny Rating 100%
+							.col-3.px-4.my-4
+								span.fa.fa-btc.fa-2x &ensp;
+								span.fa.fa-caret-right &nbsp;
+								span.fa.fa-caret-left &ensp;
+
+								span.fa.fa-btc.fa-2x
+
+							.col-1.mt-4
+								span 3567
+							.col-2.mt-4
+								span.tiny 10-1000
+
+							.col-2.mt-4
+
+								a.btn.btn-success(style="border-radius: 20px; width:100px") BUY
+						.bottomline.mt-n3
+
+
+						
+
+						.row.bottombox
+							
+							.col-4
+								.row.userbox
+									.col-4
+										img(src="/img/user_head.png").img-fluid
+									.col-8.ml-n3
+										span.d-block
+											strong Username
+										
+										.details
+											span.tiny Trades 200
+											span.ml-3.tiny Rating 100%
+							.col-3.px-4.my-4
+								span.fa.fa-btc.fa-2x &ensp;
+								span.fa.fa-caret-right &nbsp;
+								span.fa.fa-caret-left &ensp;
+
+								span.fa.fa-btc.fa-2x
+
+							.col-1.mt-4
+								span 3567
+							.col-2.mt-4
+								span.tiny 10-1000
+
+							.col-2.mt-4
+
+								a.btn.btn-success(style="border-radius: 20px; width:100px") BUY
+						.bottomline.mt-n3
+
+						.row
+							.col.p-5
+								span.btn.btn-success See more..
+block footer
+	include includes/footer

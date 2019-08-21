@@ -1,0 +1,72 @@
+extends ./user.pug
+
+block page_css
+	link(type="text/css" rel="stylesheet" href="./sass/dash.scss"  media="screen,projection")
+	link(type="text/css" rel="stylesheet" href="./sass/preview.scss"  media="screen,projection")
+
+
+block content
+	.header_container_bck
+		.container
+			.header_content_bck
+				.row.mt-n5
+					.bck1
+
+						label(for="text") WRITE YOUR TRADE TERMS
+
+						textarea.form-control(placeholder="Text here...")
+
+					.bck
+						p PREVIEW
+
+						.box
+
+							p.pt-2.top You want to buy 2.9877 BTC
+
+							p
+								span.text-danger BTC price
+								br
+								span 1 BTC = 5467 Dollars
+							p
+								span.text-danger Rate
+								br
+								span 1 USD/bitUSD
+
+							p
+								span.text-danger Payment method
+								br
+								span Amazon Gift Card
+
+							p
+								span.text-danger Amount to pay
+								br
+								span 15.568.244692 USD
+
+							p
+								span.text-danger Min
+								br
+								span 100 USD
+
+							p
+								span.text-danger Max
+								br
+								span 1000 USD
+
+							p
+								span.text-danger Total in USD
+								br
+								span 15.572 USD
+							.input-group
+								.input-group-prepend
+									.input-group-text.bg-danger Set time
+
+								input(type="text" placeholder="type here").form-control
+
+				.row
+					.col-12
+						p.text-center.my-5
+							a.btn.btn-success Confirm
+	
+
+block footer
+	include includes/footer

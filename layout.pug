@@ -1,0 +1,31 @@
+doctype html
+
+html.no-js
+	head
+		include includes/head
+
+	body
+		    
+		div#preloader
+			nav.nav(style='position: fixed; top: 0px; left: 0px')
+				.container
+					
+					a.brand-logo(href="#").left 
+						img(src="./img/ominira_logo.png").responsive-img
+			.loadercircle
+
+		div#pagecontent
+			
+			header
+				include includes/nav
+				include includes/sidenav
+				
+				block header_content
+
+			main#body_click 
+				block content
+
+
+			block footer
+			
+			script(type="text/javascript" src="js/index.js") 

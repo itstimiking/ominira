@@ -1,0 +1,139 @@
+extends ./user.pug
+
+block page_css
+	link(type="text/css" rel="stylesheet" href="./sass/dash.scss"  media="screen,projection")
+block content
+	.header_container_bck
+		.container
+			.header_content_bck
+				.row
+					.col-sm-12.col-md-3
+						.row
+							.col-sm-12
+								.row.avatarbox
+									.col-5.col-sm-5.col-md-12.avatar
+										img(src="/img/avatar3.png")
+									.col-6.col-sm-6.col-md-12.mt-sm-4.ml-2
+										h3 Username
+
+										span.wallet.d-block wallet balance
+
+										span.amount.d-block 508.97
+
+										select 
+											option(value="usd") USD
+											option(value="nrn") NRN
+											option(value="aux") AUX
+											option(value="eru") ERU
+
+					.col-sm-12.col-md-7.offset-md-2.dash-top-form
+						.row.justify-content-center
+							select.col-auto.border-success.mb-4(style="background-color: transparent; border:1px solid green; font-size:0.7em;color:green")
+								option I'M BUYING
+								option Bitcoin
+								option Litecoin
+								option BTC
+
+						.row.mt-sm-4.mt-md-0
+							.col-sm-6
+								.form-group
+									label(for="piars")
+										span SELECT PAIRS
+									
+									select.form-control(width="200px")#pairs
+										option(value="bitcoin") Bitcoin
+										option(value="one") Option2
+										option(value="two") Option3
+							.col-sm-6
+								.form-group
+									label(for="card")
+										span WITH
+
+									select.form-control(width="200px")#card
+										option(value="Amazon") Amazon Gift Card
+										option(value="one") Option2
+										option(value="two") Option3
+						.row
+							.col-sm-6
+								.row
+									.col
+										label(for="usd") SELECT CURRENCY
+								.form-group.mb-n1.row#usd
+									label(for="cash").col-sm-4.col-form-label.form-control USD
+			
+									
+									input.form-control.col-sm-6(type="number" placeholder="")#cash
+								span.small.mt-n4 
+									| current usd to BTC price 
+									span.text-danger 0.89765
+
+							.col-sm-6
+								.row
+									.col
+										label(for="bitusd") ENTER RATE
+								.form-group.mb-n1.row#bitusd
+									label(for="buy").col-sm-4.col-form-label.form-control bitUSD
+			
+									
+									input.form-control.col-sm-6(type="number" placeholder="")#buy
+								span.small.mt-n4
+									| current usd to BTC price 
+									span.text-success 0.89765
+						.row.mt-2
+							.col-sm-6
+								.row
+									.col
+										label(for="min") TRADE MIN LIMIT
+								.form-group.row#min
+									.col-5
+										span Minimum
+			
+									
+									input.form-control.col-6(type="number" placeholder="")
+
+							.col-sm-6
+								.row
+									.col
+										label(for="max") TRADE MAX LIMIT
+								.form-group.row#max
+									.col-5
+										span Maximum
+			
+									
+									input.form-control.col-6(type="number" placeholder="")
+							
+
+						.row.justify-content-center.mt-4
+							a.btn.btn-success.col-auto(href='#') Next step
+				.row.dash-box
+					.col-sm-12
+						.line2.mx-auto
+							.row
+								.col
+									img(src="/img/market.png")
+
+									img(src="/img/transactions.png")
+
+									img(src="/img/airtime.png")
+
+									img(src="/img/chat.png")
+
+
+					.col-12.text-center
+						a.btn.btn-success.col-auto.mt-md-5 Manage wallet
+
+				.row.dash-box.mb-5
+
+					.col-12.chatbox
+
+						i.fa.fa-comments.m-2 
+						span.text-light.m-2 CHAT WITH OTHERE HERE
+
+						i.fa.fa-gear.float-right.m-2 
+						.chatroom
+						.chatbar
+						a.btn.btn-success.m-1(href="") SEND
+
+	
+block footer
+	include includes/footer

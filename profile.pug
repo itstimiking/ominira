@@ -1,0 +1,150 @@
+extends ./user.pug
+
+block page_css
+	link(type="text/css" rel="stylesheet" href="./sass/dash.scss"  media="screen,projection")
+	link(type="text/css" rel="stylesheet" href="./sass/profile.scss"  media="screen,projection")
+
+
+block content
+	.header_container_bck
+		.container
+			.header_content_bck
+				.row.mt-n4
+					.col-sm-2
+						.row
+							.col(style="background-color: rgba(255,255,255, 0.1); padding:20px; margin-right: 10px;")
+								span.fa.fa-gear.d-block.my-2
+								span(style="text-decoration:underline;font-size:0.9em").d-block.my-2 SECURITY CENTER
+								span.d-block(style="text-decoration:underline;color:red;font-size:0.7em") PROFILE SETTINGS
+
+
+					.col-sm-9(style="background-color: rgba(255,255,255, 0.1); padding:30px;")
+						.row
+							.col-md-6
+								.row
+									.col
+										span.d-block ACCOUNT SETTIN
+								.row
+									.col-5
+										.bar
+											.red
+									.col-1
+										span.fa.fa-check-circle.fa-2x
+
+								.row
+									.col
+										span(style="font-size:1.2em;font-weight:800") User Name:
+										span &emsp;Ogeneme
+								.row.mt-5
+									.col-12
+										label(for="phone") PHONE NUMBER VERIFICATION
+										
+										.input-group
+											.input-group-prepend
+												.input-group-text#phone
+													select.custom-select
+														option(value="ng" selected) +234
+														option(value="us") +44
+														option(value="eu") +432
+
+											input(type="number" placeholder="Phone").form-control
+
+										span.small(style="font-size:0.6em;") Verify your mobile phone number. Select your country code and type in your number.
+										br
+										span(style="text-decoration:underline;color:red;font-size:0.8em;font-weight:800") CALL ME
+
+										span(style="font-size:0.8em") &nbsp;or&nbsp;
+
+										span(style="text-decoration:underline;color:red;font-size:0.8em;font-weight:800") SEND CODE
+
+									.col-12.mt-4
+										.input-group
+											
+											input#question(type="text" placeholder="Phone").form-control
+
+											.input-group-append
+												.input-group-text Verify
+
+									.col-12.mt-4
+										label.mb-n2(for="question") SECURITY QUESTION
+
+										span.small.d-block(style="color:red") Select a question and enter your answer correctly
+
+										select#question.custom-select.mb-2(style="color:white;background-color:red;border:0px solid transparent")
+											option select question
+											option What is your name
+											option What is your fathers name
+										.input-group
+
+											input#question(type="text" placeholder="Enter your answer").form-control
+
+											.input-group-append
+												.input-group-text Save
+							.col-md-6
+								p.text-right Profile Picture
+								.profilepic
+									img(src="/img/user_head.png")
+
+								p.text-right.pt-4.mb-sm-4
+									a.btn.btn-success(style="border-radius: 20px")
+										span.fa.fa-upload &ensp;
+										| Upload your picture
+
+								label.mt-sm-3(for="user") DETAILS
+
+								.row#user.mt-n3
+									.col-6
+										label(for="fname").small *first name
+										input#fname.form-control(type="text" placeholder="enter your first name")
+									.col-6
+										label(for="fname").small *last name
+										input#fname.form-control(type="text" placeholder="enter last name")
+
+						.row
+							.col-sm-6
+								.notification
+									span.fa.fa-bell
+									span SEND NOTIFICATIONS VIA
+									br
+									span.fa.fa-check-circle &ensp;
+									span.fa.fa-envelope.fa-2x &ensp;
+									span Email
+									.ml-5.d-inline
+									span.fa.fa-circle &nbsp;
+									span.fa.fa-mobile.fa-2x &nbsp;
+									span Mobile SMS
+
+								.mt-sm-4
+
+								label(for="pref") PREFERED CURRENCY
+								form
+									select.custom-select#pref(style="background-color:red;border:0px solid transparent; color:white")
+										option(value="usd") USD United States Dollar
+
+								.mt-4
+
+								label(for="lang") PREFERED LANGUAGE
+								form
+									select.custom-select#lang(style="background-color:red; border:0px solid transparent; color:white")
+										option(value="usd") US English
+
+							.col-sm-6
+								p WRITE YOUR BIO
+
+								textarea.form-control().mb-3
+
+								label(for="time") TIME ZONE
+								select.custom-select#time
+									option(value="1" selected) (GMT-10:00)AFRICA NEW)
+									option(value="2") (GMT-10:00)AFRICA OLD)
+
+						.row
+							.col-sm-12.justify-content-center.p-4
+								p.text-center
+									a.btn.btn-success SAVE CHANGES
+
+
+	
+
+block footer
+	include includes/footer

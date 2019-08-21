@@ -1,0 +1,83 @@
+extends ./user.pug
+
+
+block page_css
+	link(type="text/css" rel="stylesheet" href="./sass/dash.scss"  media="screen,projection")
+block header_content
+	.header_container_bck
+		.container
+			.header_content_bck
+				.row
+					.col-sm-12.col-md-3
+						.row
+							.col-sm-12
+								.row.avatarbox
+									.col-5.col-sm-5.col-md-12.avatar
+										img(src="/img/avatar3.png")
+									.col-6.col-sm-6.col-md-12.mt-sm-2.ml-2
+										img.greendot(src="/img/greendot.png")
+										h3.d-inline Username
+
+										span.wallet.d-block Your rewards
+
+										span.amount.d-block
+											| 700
+											img(src="/img/ominira_icon.png" width="10%").d-inline
+
+										span.btn.btn-secondary Widraw bal
+
+										br
+									.col-12.mt-4.ml-2
+
+										i.fa.fa-gift.fa-3x.text-danger
+
+										br
+
+										span.text-light Downlines
+
+										input.downlines(type="text" placeholder="0" disabled=true).md-2
+
+										span.mt-2.d-block.
+											Get 50 EON tokens for each person you invite with your ref link and earn up to 100,000 EON in our referal competition program
+										br
+										.input-group
+											input.form-control(type="text" placeholder="https://www.ominiraprotocol.io/ref?id=your-ref-id")
+											.input-group-append
+												.input-group-text.bg-secondary copy
+
+
+					.col-sm-12.col-md-7.offset-md-2.mt-5.mt-sm-5.mt-md-0.dash-top-form.center-text
+						
+						span.text-muted.center-text
+							| 10,000 users online&ensp;
+							img(src="/img/greendot.png")
+
+						.row
+							.col-12.chatbox
+								i.fa.fa-comments.m-2 
+								span.text-light.m-2 CHAT WITH OTHERE HERE
+
+								i.fa.fa-gear.float-right.m-2 
+								.chatroom
+								.chatbar(style="width: 88%")
+								a.btn.btn-success.m-1(href="") SEND
+
+						
+							
+
+						
+				.row.dash-box
+					.col-sm-12
+						.line2
+							.row
+								
+
+								
+				.row.dash-box.justify-content-center
+					
+					a.btn.btn-success.col-auto.mt-md-5 Manage wallet
+
+block content
+	
+block footer
+	include includes/footer

@@ -1,0 +1,194 @@
+extends ./layout.pug
+
+block header_content
+	include includes/header
+	
+block content
+	.about
+		.container
+			.row.about_content#about
+				.col-md-6
+
+					.div.line
+
+					h1
+						| About
+						br
+						| Ominira
+
+					p.
+						Ominira escrow protocol allows users to exchange
+						different crypto, digital and fiat currencies fast 
+						and secure platform. It reduces the risk of fraud by
+						acting as a third party who recieves and disburse
+						funds to both buyer and seller based on set agreements.
+
+				.col-md-6.escrow
+					img(src="./img/escrow.png" alt="crypto image" width="100%").img-responsive
+			
+			.row.how_it_works#how
+
+				.col-md-12
+
+					.div.line
+
+					h2
+						| How it
+						br
+						| works
+
+			.row
+
+				.col-sm-6.col-md-4.col-lg-4
+					.box
+						.row
+							.col-sm-12
+								img(src="./img/6.jpg" alt="agreement icon").responsive-image.center
+								
+								span.head_text
+									strong Agreement
+								span Buyer and seller agrees to terms. Either the buyer or the seller begins a transaction.
+
+				.col-sm-6.col-md-4.col-lg-4
+					.box
+						.row
+							.col-sm-12
+								img(src="./img/2.jpg" alt="agreement icon").responsive-image.center
+								
+								span.head_text
+									strong Tokens Purchase
+								span The buyer purchases Ominira tokens for fiat currency, and deposits the OEN in an escrow account by using an OTP generated through e-mail, or on the users phone.
+
+				.col-sm-6.col-md-4.col-lg-4
+					.box
+						.row
+							.col-sm-12
+								img(src="./img/3.jpg" alt="agreement icon").responsive-image.center
+								
+								span.head_text
+									strong Buyer pays Ominiraprotocol.io
+								span The buyer submits a payment. Ominiraprotocol.io verifies the payment, and then notify the seller that funds have been secured in Escrow.
+
+				.col-sm-6.col-md-4.col-lg-4
+					.box
+						.row
+							.col-sm-12
+								img(src="./img/7.jpg" alt="agreement icon").responsive-image.center
+								
+								span.head_text
+									strong Seller sends the currency
+								span Upon payment verification, the seller is authorised to send the coin/token and submit proof of information. Ominiraprotocol.io verifies that the buyer receives.
+				.col-sm-6.col-md-4.col-lg-4
+					.box
+						.row
+							.col-sm-12
+								img(src="./img/4.jpg" alt="agreement icon").responsive-image.center
+								
+								span.head_text
+									strong Buyer accepts
+								span The buyer has a set number of minutes as per the terms to verify the token/coin and the option to accept or reject it.
+
+				.col-sm-6.col-md-4.col-lg-4
+					.box
+						.row
+							.col-sm-12
+								img(src="./img/5.jpg" alt="agreement icon").responsive-image.center
+								
+								span.head_text
+									strong Ominiraprotocol.io pays the seller
+								span Ominiraprotocol.io releases funds to the seller from the escrow account
+
+	.ad
+		.container
+			.row
+				
+				.col-sm-12.col-md-6
+					h3 
+						| Secure pear to pear
+						br
+						| escrow platform
+
+					p Buy and sell assets easily
+
+					img.app(src="./img/google.png" alt="Google play icon").responsive-img
+
+					img.app(src="./img/ios.png" alt="appl shop icon").responsive-img
+
+				.col-sm-12.col-md-6.phone_container
+					
+					img(src="./img/hand.png" alt="hand holding phone")
+
+
+	.map.green.bg-success
+		.container
+			.row.justify-content-center
+				.col-auto
+					h2.my-5 TRADE OFFERS
+
+			.row
+				.col-sm-12.wrapper.mt-4.mb-4
+					.row.scrollcontent
+						.col
+							.trade_box
+								ul
+									li.strong $50 WePower (WPR)
+									li.gray-text at $330 exchange
+									li.green-text Sell
+									li Lord_koma
+									li Guarantee Trust Bank
+									li Nigeria
+						.col
+							.trade_box
+								ul
+									li.strong $50 WePower (WPR)
+									li.gray-text at $330 exchange
+									li.green-text Sell
+									li Lord_koma
+									li Guarantee Trust Bank
+									li Nigeria
+
+						.col
+							.trade_box
+								ul
+									li.strong $50 WePower (WPR)
+									li.gray-text at $330 exchange
+									li.green-text Sell
+									li Lord_koma
+									li Guarantee Trust Bank
+									li Nigeria
+
+						.col
+							.trade_box
+								ul
+									li.strong $50 WePower (WPR)
+									li.gray-text at $330 exchange
+									li.green-text Sell
+									li Lord_koma
+									li Guarantee Trust Bank
+									li Nigeria
+
+						.col
+							.trade_box
+								ul
+									li.strong $50 WePower (WPR)
+									li.gray-text at $330 exchange
+									li.green-text Sell
+									li Lord_koma
+									li Guarantee Trust Bank
+									li Nigeria
+
+			.row
+				.col-xs-12.col-sm-3.col-md-3
+					#map
+						img(src="./img/map.png" alt="map").img-fluid
+
+				.col-xs-12.col-sm-9.md-9.hide-on-small-only.mt-5
+					h3 PURCHASE EASILY, SELL SECURELY
+
+					p Exchang and transact bitcoin, ethereum, bitcoin cash, and ominira tokens using our trusted and secure cryptocurrency wallet.
+
+					a(href="./login.pug")
+						button(type="button").btn.btn-light ENTER MARKET  
+				
+block footer
+	include includes/footer

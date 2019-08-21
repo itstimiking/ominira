@@ -1,0 +1,47 @@
+extends ./layout.pug
+
+block header_content
+	.header_container_bck
+		.container
+			.header_content_bck
+				.row
+					.col-sm-10.offset-sm-1.col-md-6.offset-md-3
+						.row
+							.col-sm-12
+								form.row
+									.col-sm-12.form-group
+										label(for="email") Email Address
+									
+										input.form-control#email(type='text')
+
+
+									.col-sm-12.form-group 
+										label(for="pass") Password
+									
+										input.form-control#pass(type='password')
+
+									.col-sm-12.form-group
+										input(type="checkbox")
+										span.center-align
+											| Remember me
+
+									.col-sm-6.offset-sm-3
+										
+										a.btn.btn-danger.form-control(href="./login.pug") Login
+
+									.col-sm-6.offset-sm-3.text-center
+
+										p.center 
+											a(href='#') forgot password
+
+									.col-sm-6.offset-sm-3
+										
+										a.btn.btn-success.form-control(href="./signup.pug") Signup
+										
+										
+									
+									
+block content
+	
+block footer
+	include includes/footer

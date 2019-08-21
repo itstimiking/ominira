@@ -1,0 +1,36 @@
+nav.navbar.navbar-expand-lg
+
+	.container
+
+		a.navbar-brand(href="/")
+			img(src="./img/ominira_logo.png")
+
+		span.navbar-text.text-success.d-md-none.d-xl-block#hide-on-small-screen
+			i.fa.fa-credit-card(aria-hidden="true") &ensp;
+			| Total amount traded - 0&emsp;
+			i.fa.fa-users &ensp;
+			| Number of traders - 0
+
+
+		span#sidenav-trigger.float-right.btn.d-md-none
+			i.fa.fa-bars.fa-2x(aria-hidden="true")
+
+		ul.navbar-nav.hide-nav
+			li.nav-item
+				a.nav-link(href="/#about") About
+			li.nav-item
+				a.nav-link(href="/#how") How&nbsp;it&nbsp;works 
+			li.nav-item
+				a.nav-link(href="./wallet.pug") Wallet
+			li.nav-item
+				a.nav-link(href="./market.pug") Market
+			li.nav-item
+				a.nav-link(href="#") Help 
+			li.nav-item
+				a.nav-link.btn(href="./login.pug") LOGIN
+
+		span.navbar-text.text-success.d-none.d-md-block.d-lg-none.mx-auto#show-on-small-screen
+			i.fa.fa-credit-card(aria-hidden="true") &ensp;
+			| Total amount traded - 0&emsp;
+			i.fa.fa-users &ensp;
+			| Number of traders - 0
