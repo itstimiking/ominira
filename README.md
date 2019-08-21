@@ -1,6 +1,6 @@
 # ominira
 Ominira Development front end rapo.... 
-View page on [Netlify](https://ominiratest.netlify.com "Netlify link")
+View page [Ominira test page on Netlify](https://ominiratest.netlify.com "Netlify link")
 
 ## Dependencies Used 
 
