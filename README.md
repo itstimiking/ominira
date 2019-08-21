@@ -1,5 +1,5 @@
 # ominira
-Ominira Development front end rapo.... 
+Ominira Development front end rapo.  
 View page [Ominira test page on Netlify](https://ominiratest.netlify.com "Netlify link")
 
 ## Dependencies Used 
