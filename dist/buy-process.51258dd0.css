@@ -25,7 +25,7 @@
 }
 .status .line {
   width: 80%;
-  border: 1px solid white;
+  background: linear-gradient(90deg, red 40%, white 5%, white 45%);
   height: 2px;
   margin-left: 10%;
   position: relative;
@@ -33,20 +33,23 @@
 .status .line .circle {
   height: 50px;
   width: 50px;
-  line-height: 50px;
+  line-height: 42px;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   border-radius: 50%;
   /* may require vendor prefixes */
-  background: white;
+  background: #7e7d7d;
   color: black;
+  border: 4px solid #afafaf;
   position: absolute;
-  top: -20px;
+  top: -24px;
 }
 .status .line .circle:first-child {
   background-color: red;
+  border-color: #f88282;
   color: white;
+  left: -2px;
 }
 .status .line .circle:nth-child(2) {
   left: 35%;
