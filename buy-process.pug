@@ -81,6 +81,24 @@ block content
 								a(href="")
 									u.text-danger see more
 
+						.status
+							.line
+								.circle 1
+								.circle 2
+								.circle 3
+								.circle 4
+
+							br
+							br
+							br
+							span After making payment click on the "Mark Paid" button, Otherwise trade will timeout and the system will return coin to vendor
+							br
+							br
+							a.btn.btn-success(href="#") Mark Paid
+
+							a.btn.btn-secondary(href="#").ml-md-3 Cancel
+
+
 
 					.col-sm-5.mt-4
 						.bck1
@@ -144,18 +162,18 @@ block content
 								.col-4
 									.row.userbox
 										.col-6
-											img(src="/img/user_head.png" width="100%")
+											img(src="/img/user_head.png" width="100%" height="100%")
 										.col-6.ml-n3
 											span.d-block
 												strong Username
 											
 											
 								.col-3.px-4.my-4
-									span.fa.fa-btc &ensp;
+									img.icon(src="/img/btc_orange.svg", alt="btc icon")
 									span.fa.fa-caret-right &nbsp;
 									span.fa.fa-caret-left &ensp;
 
-									span.fa.fa-btc
+									img.icon(src="/img/ltc_white.svg", alt="btc icon")
 
 								.col-1.mt-4
 									span 3567
@@ -181,11 +199,13 @@ block content
 											
 											
 								.col-3.px-4.my-4
-									span.fa.fa-btc &ensp;
+
+									img.icon(src="/img/ltc_white.svg", alt="btc icon")
+
 									span.fa.fa-caret-right &nbsp;
 									span.fa.fa-caret-left &ensp;
 
-									span.fa.fa-btc
+									img.icon(src="/img/btc_green.svg", alt="btc icon")
 
 								.col-1.mt-4
 									span 3567
@@ -211,11 +231,13 @@ block content
 											
 											
 								.col-3.px-4.my-4
-									span.fa.fa-btc &ensp;
+
+									img.icon(src="/img/tether_icon.svg", alt="btc icon")
+
 									span.fa.fa-caret-right &nbsp;
 									span.fa.fa-caret-left &ensp;
 
-									span.fa.fa-btc
+									img.icon(src="/img/dash.svg", alt="btc icon")
 
 								.col-1.mt-4
 									span 3567

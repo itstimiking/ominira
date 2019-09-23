@@ -5,60 +5,76 @@
   display: inline-block;
   min-height: 320px;
   padding-bottom: 20px;
-  position: relative; }
-  .bck1 .topbox {
-    width: 100%;
-    padding: 10px 40px; }
-    .bck1 .topbox select {
-      width: 60px;
-      height: 20px;
-      margin-left: 10px;
-      background-color: transparent;
-      color: white;
-      font-size: 0.5em;
-      padding: 0px; }
-    .bck1 .topbox .small {
-      font-size: 0.7em;
-      color: rgba(255, 255, 255, 0.6); }
-  .bck1 .topline {
-    background-color: white;
-    height: 2px;
-    width: 100%; }
-  .bck1 .bottomline {
-    background-color: rgba(200, 200, 200, 0.1);
-    height: 2px;
-    width: 100%; }
-  .bck1 .userbox {
-    width: 100%;
-    padding: 20px 40px; }
-    .bck1 .userbox img {
-      width: 100%;
-      float: right; }
-    .bck1 .userbox .details {
-      margin-top: 15px; }
-    .bck1 .userbox .small {
-      font-size: 0.7em;
-      color: rgba(255, 255, 255, 0.6); }
-  .bck1 .tiny {
-    font-size: 0.6em;
-    color: rgba(255, 255, 255, 0.6); }
-  .bck1 .bottomtext {
-    position: absolute;
-    bottom: 0px; }
-  .bck1 .userbox {
-    width: 100%;
-    padding: 20px 40px; }
-    .bck1 .userbox .details {
-      margin-top: 15px; }
-    .bck1 .userbox .small {
-      font-size: 0.7em;
-      color: rgba(255, 255, 255, 0.6); }
-  .bck1 .tiny {
-    font-size: 0.6em;
-    color: rgba(255, 255, 255, 0.6); }
+  position: relative;
+}
+.bck1 .topbox {
+  width: 100%;
+  padding: 10px 40px;
+}
+.bck1 .topbox select {
+  width: 60px;
+  height: 20px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 0.5em;
+  padding: 0px;
+}
+.bck1 .topbox .small {
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.bck1 .topline {
+  background-color: white;
+  height: 2px;
+  width: 100%;
+}
+.bck1 .bottomline {
+  background-color: rgba(200, 200, 200, 0.1);
+  height: 2px;
+  width: 100%;
+}
+.bck1 .userbox {
+  width: 100%;
+  padding: 20px 40px;
+}
+.bck1 .userbox img {
+  width: 100%;
+  float: right;
+}
+.bck1 .userbox .details {
+  margin-top: 15px;
+}
+.bck1 .userbox .small {
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.bck1 .tiny {
+  font-size: 0.6em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.bck1 .bottomtext {
+  position: absolute;
+  bottom: 0px;
+}
+.bck1 .userbox {
+  width: 100%;
+  padding: 20px 40px;
+}
+.bck1 .userbox .details {
+  margin-top: 15px;
+}
+.bck1 .userbox .small {
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.bck1 .tiny {
+  font-size: 0.6em;
+  color: rgba(255, 255, 255, 0.6);
+}
 
 .header_container_bck {
-  min-height: 80em; }
-
+  min-height: 80em;
+}
 
 /*# sourceMappingURL=/process.53624e22.css.map */

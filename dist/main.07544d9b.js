@@ -122,7 +122,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../fonts/paymentfont-webfont.eot":[["paymentfont-webfont.f4b75ed7.eot","fonts/paymentfont-webfont.eot"],"fonts/paymentfont-webfont.eot"],"./../fonts/paymentfont-webfont.woff":[["paymentfont-webfont.a04b3cfb.woff","fonts/paymentfont-webfont.woff"],"fonts/paymentfont-webfont.woff"],"./../fonts/paymentfont-webfont.ttf":[["paymentfont-webfont.ddce4986.ttf","fonts/paymentfont-webfont.ttf"],"fonts/paymentfont-webfont.ttf"],"./../fonts/paymentfont-webfont.svg":[["paymentfont-webfont.f7aa963e.svg","fonts/paymentfont-webfont.svg"],"fonts/paymentfont-webfont.svg"],"./../fonts/cryptofont-webfont.eot":[["cryptofont-webfont.f87896c4.eot","fonts/cryptofont-webfont.eot"],"fonts/cryptofont-webfont.eot"],"./../fonts/cryptofont-webfont.woff":[["cryptofont-webfont.2b508f64.woff","fonts/cryptofont-webfont.woff"],"fonts/cryptofont-webfont.woff"],"./../fonts/cryptofont-webfont.ttf":[["cryptofont-webfont.2a66d87e.ttf","fonts/cryptofont-webfont.ttf"],"fonts/cryptofont-webfont.ttf"],"./../fonts/cryptofont-webfont.svg":[["cryptofont-webfont.eb63fbbd.svg","fonts/cryptofont-webfont.svg"],"fonts/cryptofont-webfont.svg"],"/home/timiking/apps/ominira/img/grid.png":[["grid.688916e9.png","img/grid.png"],"img/grid.png"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\fonts\\paymentfont-webfont.eot":[["paymentfont-webfont.f4b75ed7.eot","fonts/paymentfont-webfont.eot"],"fonts/paymentfont-webfont.eot"],"./..\\fonts\\paymentfont-webfont.woff":[["paymentfont-webfont.a04b3cfb.woff","fonts/paymentfont-webfont.woff"],"fonts/paymentfont-webfont.woff"],"./..\\fonts\\paymentfont-webfont.ttf":[["paymentfont-webfont.ddce4986.ttf","fonts/paymentfont-webfont.ttf"],"fonts/paymentfont-webfont.ttf"],"./..\\fonts\\paymentfont-webfont.svg":[["paymentfont-webfont.f7aa963e.svg","fonts/paymentfont-webfont.svg"],"fonts/paymentfont-webfont.svg"],"./..\\fonts\\cryptofont-webfont.eot":[["cryptofont-webfont.f87896c4.eot","fonts/cryptofont-webfont.eot"],"fonts/cryptofont-webfont.eot"],"./..\\fonts\\cryptofont-webfont.woff":[["cryptofont-webfont.2b508f64.woff","fonts/cryptofont-webfont.woff"],"fonts/cryptofont-webfont.woff"],"./..\\fonts\\cryptofont-webfont.ttf":[["cryptofont-webfont.2a66d87e.ttf","fonts/cryptofont-webfont.ttf"],"fonts/cryptofont-webfont.ttf"],"./..\\fonts\\cryptofont-webfont.svg":[["cryptofont-webfont.eb63fbbd.svg","fonts/cryptofont-webfont.svg"],"fonts/cryptofont-webfont.svg"],"C:\\Users\\Timiking\\apps\\ominira\\img\\grid.png":[["grid.688916e9.png","img/grid.png"],"img/grid.png"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -150,7 +150,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33973" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51178" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -325,7 +325,7 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -357,7 +357,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-loader.js":[function(require,module,exports) {
+},{}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-loader.js":[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -440,7 +440,7 @@ LazyPromise.prototype.catch = function (onError) {
   if (this.promise === null) this.promise = new Promise(this.executor);
   return this.promise.catch(onError);
 };
-},{"./bundle-url":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js":[function(require,module,exports) {
+},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js":[function(require,module,exports) {
 module.exports = function loadJSBundle(bundle) {
   return new Promise(function (resolve, reject) {
     var script = document.createElement('script');
@@ -463,6 +463,6 @@ module.exports = function loadJSBundle(bundle) {
   });
 };
 },{}],0:[function(require,module,exports) {
-var b=require("../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]);
-},{}]},{},["../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
+var b=require("../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-loader.js");b.register("js",require("../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/loaders/browser/js-loader.js"));b.load([]);
+},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js",0], null)
 //# sourceMappingURL=/main.07544d9b.js.map

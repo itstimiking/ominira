@@ -24,9 +24,11 @@
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "^4.0.0",
     "gulp-babel": "^8.0.0",
-    "gulp-imagemin": "^5.0.3"
+    "gulp-imagemin": "^5.0.3",
+    "sass": "1.23.0-module.beta.1"
   },
   "dependencies": {
+    "bootstrap": "4.3.1",
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
@@ -36,6 +38,8 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
-    "lax.js": "^1.2.3"
+    "jquery": "3.4.1",
+    "lax.js": "^1.2.3",
+    "popper.js": "1.15.0"
   }
 }

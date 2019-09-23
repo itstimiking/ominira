@@ -1,7 +1,8 @@
 .chatroom {
   width: 100%;
   height: 25em;
-  background-color: white; }
+  background-color: white;
+}
 
 .bck1 {
   width: 100%;
@@ -9,7 +10,52 @@
   display: inline-block;
   min-height: 320px;
   padding-bottom: 1px !important;
-  position: relative; }
+  position: relative;
+}
 
+.status {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  margin-top: 60px;
+}
+.status a.btn {
+  width: 100px;
+  border-radius: 30px;
+}
+.status .line {
+  width: 80%;
+  border: 1px solid white;
+  height: 2px;
+  margin-left: 10%;
+  position: relative;
+}
+.status .line .circle {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  /* may require vendor prefixes */
+  background: white;
+  color: black;
+  position: absolute;
+  top: -20px;
+}
+.status .line .circle:first-child {
+  background-color: red;
+  color: white;
+}
+.status .line .circle:nth-child(2) {
+  left: 35%;
+}
+.status .line .circle:nth-child(3) {
+  left: 65%;
+}
+.status .line .circle:last-child {
+  left: 95%;
+}
 
 /*# sourceMappingURL=/buy-process.51258dd0.css.map */

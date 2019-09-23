@@ -1,80 +1,102 @@
+.header_content_bck {
+  min-height: 60em !important;
+}
+
 .bck1 {
   background-color: rgba(255, 255, 255, 0.1);
   width: 100%;
   margin-right: 20px;
   display: inline-block;
   min-height: 300px;
-  padding-bottom: 50px; }
-  .bck1 .topbox {
-    width: 100%;
-    padding: 10px 40px; }
-    .bck1 .topbox select {
-      width: 60px;
-      height: 20px;
-      margin-left: 10px;
-      background-color: transparent;
-      color: white;
-      font-size: 0.5em;
-      padding: 0px; }
-    .bck1 .topbox .small {
-      font-size: 0.7em;
-      color: rgba(255, 255, 255, 0.6); }
-  .bck1 .topline {
-    background-color: white;
-    height: 2px;
-    width: 100%; }
-  .bck1 .bottomline {
-    background-color: rgba(255, 255, 255, 0.6);
-    height: 2px;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%; }
-  .bck1 .userbox {
-    width: 100%;
-    padding: 20px 40px; }
-    .bck1 .userbox img {
-      width: 100%;
-      float: right; }
-    .bck1 .userbox .details {
-      margin-top: 15px; }
-    .bck1 .userbox .small {
-      font-size: 0.7em;
-      color: rgba(255, 255, 255, 0.6); }
-  .bck1 .tiny {
-    font-size: 0.6em;
-    color: rgba(255, 255, 255, 0.6); }
+  padding-bottom: 50px;
+}
+.bck1 .topbox {
+  width: 100%;
+  padding: 10px 40px;
+}
+.bck1 .topbox select {
+  width: 60px;
+  height: 20px;
+  margin-left: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 0.5em;
+  padding: 0px;
+}
+.bck1 .topbox .small {
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.bck1 .topline {
+  background-color: white;
+  height: 2px;
+  width: 100%;
+}
+.bck1 .bottomline {
+  background-color: rgba(17, 16, 16, 0.3);
+  height: 2px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+.bck1 .userbox {
+  width: 100%;
+  padding: 20px 40px;
+}
+.bck1 .userbox img {
+  width: 100%;
+  float: right;
+}
+.bck1 .userbox .details {
+  margin-top: 15px;
+}
+.bck1 .userbox .small {
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.bck1 .tiny {
+  font-size: 0.6em;
+  color: rgba(255, 255, 255, 0.6);
+}
 
 .line-box {
   position: relative;
-  height: 100px; }
-  .line-box .line {
-    height: 100px;
-    width: 10px;
-    background-color: white;
-    border-radius: 10px;
-    position: absolute; }
-  .line-box button.success {
-    background-color: #19980F;
-    margin-left: 20px; }
-  .line-box button.trans {
-    border: 1px solid red;
-    color: red;
-    margin-left: 20px; }
-  .line-box .tab-box {
-    background-color: rgba(255, 255, 255, 0.1);
-    margin-left: 20px;
-    margin-top: 30px;
-    width: 90%; }
-    .line-box .tab-box a {
-      font-size: 0.8em; }
-    .line-box .tab-box a:first-child {
-      border-bottom: 2px solid white; }
+  height: 100px;
+}
+.line-box .line {
+  height: 100px;
+  width: 10px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+}
+.line-box button.success {
+  background-color: #19980F;
+  margin-left: 20px;
+}
+.line-box button.trans {
+  border: 1px solid red;
+  color: red;
+  margin-left: 20px;
+}
+.line-box .tab-box {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 90%;
+}
+.line-box .tab-box a {
+  font-size: 0.8em;
+}
+.line-box .tab-box a:first-child {
+  border-bottom: 2px solid white;
+}
 
 .topselect select {
   background-color: red;
   border: 0px solid transparent;
   color: white;
-  margin-left: 10px; }
-
+  margin-left: 10px;
+}
 
 /*# sourceMappingURL=/market.52367638.css.map */

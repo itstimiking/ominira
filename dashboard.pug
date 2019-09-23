@@ -2,6 +2,9 @@ extends ./user.pug
 
 block page_css
 	link(type="text/css" rel="stylesheet" href="./sass/dash.scss"  media="screen,projection")
+	link(type="text/css" rel="stylesheet" href="./sass/dash-dash.scss"  media="screen,projection")
+
+
 block content
 	.header_container_bck
 		.container
@@ -126,7 +129,8 @@ block content
 
 					.col-12.chatbox
 
-						i.fa.fa-comments.m-2 
+						img(src="/img/chat-box.png", alt="group chat icon")
+						
 						span.text-light.m-2 CHAT WITH OTHERE HERE
 
 						i.fa.fa-gear.float-right.m-2 

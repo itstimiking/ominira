@@ -12,3 +12,53 @@
 	padding-bottom: 1px !important;
 	position: relative;
 }
+
+.status{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	margin-top: 60px;
+
+	a.btn{
+		width: 100px;
+		border-radius: 30px;
+	}
+
+	.line{
+		width: 80%;
+		border: 1px solid white;
+		height: 2px;
+		margin-left: 10%;
+		position: relative;
+		
+
+		.circle{
+			height: 50px;
+			width: 50px;
+			line-height: 50px;
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+			border-radius: 50%; /* may require vendor prefixes */
+			background: white;
+			color: black;
+			position: absolute;
+			top: -20px
+		}
+		.circle:first-child{
+			background-color: red;
+			color: white;
+		}
+		.circle:nth-child(2){
+			left: 35%;
+		}
+
+		.circle:nth-child(3){
+			left: 65%;
+		}
+
+		.circle:last-child{
+			left: 95%;
+		}
+	}
+}

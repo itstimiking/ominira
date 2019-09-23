@@ -2,6 +2,7 @@ extends ./user.pug
 
 block page_css
 	link(type="text/css" rel="stylesheet" href="./sass/dash.scss"  media="screen,projection")
+	link(type="text/css" rel="stylesheet" href="./sass/dash-wallet.scss"  media="screen,projection")
 
 block header_content
 	.header_container_bck
@@ -19,36 +20,108 @@ block header_content
 					.col-sm-12
 						.row#dashrow
 							.col-sm-6.col-md-4.col-lg-3
-								.dashbox
-									span Hello world
+								.dashbox.mt-md-3.mt-3
+									span BITCOIN
+									img(src="/img/btc_orange.svg", alt="btc icon")
+									.m-2
+									span.balance balance
+									.m-2
+									span.price 0.089045
+									.m-3
 
-							.col-sm-6.col-md-4.col-lg-3
-								.dashbox.mt-3.mt-sm-0
-									span Hello world
-									br
-									i.cf.cf-btc
-
-							.col-sm-6.col-md-4.col-lg-3
-								.dashbox.mt-3.mt-md-0
-									span Hello world
-
-							.col-sm-6.col-md-4.col-lg-3
-								.dashbox.mt-md-3.mt-3.mt-lg-0
-									span Hello world
+									select.form-control(name="btc")
+										option(value="price") VIEW BITCOIN OPTIONS
 
 							.col-sm-6.col-md-4.col-lg-3
 								.dashbox.mt-md-3.mt-3
-									span Hello world
+									span RIPPLE
+									img(src="/img/xrp.svg", alt="xrp icon")
+									.m-2
+									span.balance balance
+									.m-2
+									span.price 0.089045
+									.m-3
+
+									select.form-control(name="ripple")
+										option(value="price") VIEW RIPPLE OPTIONS
 
 							.col-sm-6.col-md-4.col-lg-3
 								.dashbox.mt-md-3.mt-3
-									span Hello world
+									span DASH
+									img(src="/img/dash.svg", alt="dash icon")
+									.m-2
+									span.balance balance
+									.m-2
+									span.price 0.089045
+									.m-3
+
+									select.form-control(name="dash")
+										option(value="price") VIEW DASH OPTIONS
 
 							.col-sm-6.col-md-4.col-lg-3
 								.dashbox.mt-md-3.mt-3
-									
+									span TETHER
+									img(src="/img/tether_icon.svg", alt="tether icon")
+									.m-2
+									span.balance balance
+									.m-2
+									span.price 0.089045
+									.m-3
+
+									select.form-control(name="tether")
+										option(value="price") VIEW TETHER OPTIONS
+
 							.col-sm-6.col-md-4.col-lg-3
 								.dashbox.mt-md-3.mt-3
+									span BITCOIN
+									img(src="/img/dogecoin.svg", alt="Dodge icon")
+									.m-2
+									span.balance balance
+									.m-2
+									span.price 0.089045
+									.m-3
+
+									select.form-control(name="dogecoin")
+										option(value="price") VIEW DOGE OPTIONS
+
+							.col-sm-6.col-md-4.col-lg-3
+								.dashbox.mt-md-3.mt-3
+									span LITE COIN
+									img(src="/img/ltc_white.svg", alt="ltc icon")
+									.m-2
+									span.balance balance
+									.m-2
+									span.price 0.089045
+									.m-3
+
+									select.form-control(name="ltc")
+										option(value="price") VIEW LITECOIN OPTIONS
+
+							.col-sm-6.col-md-4.col-lg-3
+								.dashbox.mt-md-3.mt-3
+									span BITCOIN CASH
+									img(src="/img/btc_green.svg", alt="btc icon")
+									.m-2
+									span.balance balance
+									.m-2
+									span.price 0.089045
+									.m-3
+
+									select.form-control(name="btc-cash")
+										option(value="price") VIEW BTC CASH OPTIONS
+	
+							.col-sm-6.col-md-4.col-lg-3
+								.dashbox.mt-md-3.mt-3
+									span ETHEREUM
+									img(src="/img/ethereum.svg", alt="ethereum icon")
+									.m-2
+									span.balance balance
+									.m-2
+									span.price 0.089045
+									.m-3
+
+									select.form-control(name="ethereum")
+										option(value="price") VIEW ETHEREUM OPTIONS
 
 					.col-sm-12.text-center.mt-5
 						span.btn.btn-secondary ADD COIN
@@ -56,10 +129,17 @@ block header_content
 					.col-sm-12.mt-5
 						.row
 							.col-md-6
-								.dashbox
+								.dashbox2
+									span RECENT ACTIVITIES
+
+									.white-border
+										span No activities yet
 
 							.col-md-6
-								.dashbox.mt-5.mt-md-0
+								.dashbox2
+									span TRANSACTIONS
+									.white-border
+										span No transactions yet
 						
 									
 block content
